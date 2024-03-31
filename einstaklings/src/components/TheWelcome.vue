@@ -1,31 +1,26 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import SectionItem from './SectionItem.vue'
 </script>
 
 <template>
   <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>Documentation</template>
-
     Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started.
+    <SectionItem>
+      <p>
+    With the release of Vulkan in 2014, game developers were given a chance to target hardware at a low level for increased performance and fidelity.
+  </p>
+    </SectionItem>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
     </template>
     <template #heading>Tooling</template>
-
+    
     This project is served and bundled with
+
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
     recommended IDE setup is
     <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
@@ -43,7 +38,6 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
     </template>
     <template #heading>Ecosystem</template>
 
@@ -59,7 +53,6 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
     </template>
     <template #heading>Community</template>
 
@@ -77,7 +70,6 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
     </template>
     <template #heading>Support Vue</template>
 
