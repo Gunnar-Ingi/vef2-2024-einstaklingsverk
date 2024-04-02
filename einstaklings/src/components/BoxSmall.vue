@@ -13,12 +13,14 @@
     color: #000;
     transition: 0.4s;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 5px;
+
     display: flex;
-    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    
+    width: 25vw;
     height: 10vh;
-    flex-wrap: wrap;
     border-radius: 24px;
   }
   

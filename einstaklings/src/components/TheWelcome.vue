@@ -54,7 +54,7 @@ export default {
 
 <InfoCards>
       <p>
-        MORE INFO ABOUT WHATEVER
+        More info about whatever.
     </p>
 </InfoCards>
     
@@ -83,3 +83,21 @@ export default {
   </WelcomeItem>
 
 </template>
+
+
+<style scoped>
+button {
+  background-color: transparent;
+  border: 1px;
+
+  max-width: 256px;
+  
+  display: flex;
+  }
+
+  img {
+    height: 30vh;
+    width: 30vw;
+  }
+  
+</style>

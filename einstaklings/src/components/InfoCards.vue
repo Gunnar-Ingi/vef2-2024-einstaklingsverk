@@ -15,12 +15,19 @@
     padding: 10px;
     margin: 10px;
     
+
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 50vw;
     height: 20vh;
-    flex-wrap: wrap;
     border-radius: 24px;
     max-width: 1024px;
+  }
+
+  section {
+    color: white;
   }
   
 </style>

@@ -13,10 +13,14 @@ section {
     padding: 10px;
     margin: 10px;
     
+
     display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
     width: 70vw;
     height: 50vh;
-    flex-wrap: wrap;
     border-radius: 24px;
     max-width: 1024px;
   }
