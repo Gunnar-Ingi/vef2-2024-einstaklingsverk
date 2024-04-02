@@ -1,20 +1,22 @@
 <template>
+    <div class="item">
     <section>
         <slot></slot>
     </section>
+</div>
 </template>
 
 
 <style scoped>
-section {
-    background-color: #7CE9F3;
+.item {
+    background-color: #ED345B;
     color: #000;
     transition: 0.4s;
     padding: 10px;
     
     display: flex;
-    width: 70vw;
-    height: 50vh;
+    width: 10vw;
+    height: 10vh;
     flex-wrap: wrap;
     border-radius: 24px;
   }
