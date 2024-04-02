@@ -23,7 +23,7 @@
     width: 50vw;
     height: 20vh;
     border-radius: 24px;
-    max-width: 1024px;
+    max-width: 256px;
   }
 
   section {
