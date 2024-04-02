@@ -13,9 +13,10 @@
     color: #000;
     transition: 0.4s;
     padding: 10px;
+    margin: 10px;
     
     display: flex;
-    width: 10vw;
+    width: 30vw;
     height: 10vh;
     flex-wrap: wrap;
     border-radius: 24px;
